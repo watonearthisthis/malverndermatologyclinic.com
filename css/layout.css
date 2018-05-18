@@ -1,0 +1,205 @@
+/*
+* Using Skeleton V1.2
+* http://www.opensource.org/licenses/mit-license.html
+
+* Site designed and coded by Jack Kaloger 2013
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+/* nav bar */
+
+.header {
+	    height: 55px;
+}
+
+.nav{
+	background-color: #222;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding-top: 10;
+    text-align:center;
+    line-height: 4em;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: #aaa;
+    text-transform: none;
+    -webkit-transition: all .75s ease-out;
+    -moz-transition: all .75s ease-out;
+    -o-transition: all .75s ease-out;
+    transition: all .75s ease-out;
+}
+
+.nav li a:hover{
+    color: #fefefe;
+    background-color: rgba(110,246,142,.35);
+}
+
+.logo {
+	overflow: hidden;
+	background-color: #222;
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo img {
+	-webkit-animation: fadein 8s; /* Safari and Chrome */
+	-moz-animation: fadein 8s; /* Firefox */
+	-ms-animation: fadein 8s; /* Internet Explorer */
+	-o-animation: fadein 8s; /* Opera */
+	animation: fadein 8s;
+}
+
+.hero {
+	position: relative;
+	max-height: 460px;
+	overflow: hidden;
+	background-color: #eee;
+}
+
+.wht {
+	background-color: #FFF;
+}
+
+.home {
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+}
+
+.desktoponly {
+	display: inline-block;
+}
+
+@media screen and (max-width: 640px) {
+	.desktoponly {
+		display: none;
+	}
+}
+
+.contactstaff { 
+	max-height: 480px;
+	overflow: hidden;
+}
+@media only screen and (max-width: 1279px) {.hero img {
+	width: 100%;
+}}
+
+@media only screen and (min-width: 1280px) {
+	.hero {
+		padding-bottom: 15px;
+	}
+	.hero img {
+	width: 1280px;
+	align: center;
+}}
+
+@media only screen and (min-width: 960px) {.doctormd {
+	font-size: 14em;
+	text-align: left;
+}}
+
+@media only screen and (max-width: 959px) {.doctormd {
+	font-size: 10em;
+	text-align: left;
+}}
+
+
+
+
+.icon-home {
+	color: rgba(153,202,59,1);
+	font-size: 8em;
+}
+
+
+.footer {
+	background-color: #222;
+	color: #999;
+	padding: 25px;
+	margin-top: 50px;
+}
+
+.footer ul,
+.footer li, {
+	list-style: none;
+	display: block;
+}
+
+.footer li:hover{
+	color: #FEFEFE;
+	cursor: pointer;
+}
+
+.footer a {
+	color: #FEFEFE;
+}
+
+.footer a:hover {
+	color: rgba(153,202,59,1);
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 550px) {.nomobile{display:none;}}
+
+
+/* #Font-Face
+================================================== */
+
